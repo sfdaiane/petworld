@@ -146,3 +146,28 @@ body {
     border-radius: 10px;
 }
 
+.service-card-container {
+    height: 730px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-card-content-container {
+    border: 2px red solid;
+}
+
+.brand-section {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brands-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
