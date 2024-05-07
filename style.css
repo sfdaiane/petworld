@@ -155,8 +155,55 @@ body {
 }
 
 .service-card-content-container {
-    border: 2px red solid;
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
 }
+
+.service-card {
+    padding: 25px;
+    flex-direction: column;
+    background-color: #F7F7F7;
+    width: 230px;  
+    border-radius: 10px;
+}
+
+.service-card-title {
+    font-size: 18px;
+    color: #2D2D2D;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.service-card-subtitle {
+    margin: 0;
+    margin-top: 20px;
+    color: #757575;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.icon-container {
+    height: 70px;
+    width: 70px;
+    background-color: #E6E6E6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-service {
+    height: 60px;
+    width: 60px;
+
+}
+
+
 
 .brand-section {
     height: 200px;
