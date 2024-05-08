@@ -203,8 +203,6 @@ body {
 
 }
 
-
-
 .brand-section {
     height: 200px;
     display: flex;
@@ -217,4 +215,40 @@ body {
     align-items: center;
     justify-content: center;
     gap: 70px;
+}
+
+.review-section {
+    height: 500px;
+    background-color: #ECE7FB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.review-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    width: 100%;
+    gap: 60px;
+}
+
+.quote-review {
+    color: #2D2D2D;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.review-author {
+    color: #777777;
+    font-weight: 400;
+    margin-top: 35px;
+}
+
+.img-review {
+    border: solid 2px #BCBCBC;
+    border-radius: 100%;
+    opacity: 0.8;
 }
