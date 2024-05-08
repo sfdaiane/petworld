@@ -252,3 +252,39 @@ body {
     border-radius: 100%;
     opacity: 0.8;
 }
+
+.contact-section {
+    height: 500px;
+    background-color: #FCFAF5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-title {
+    margin: 0;
+    font-size: 80px;
+    color: #2D2D2D;
+}
+
+.container-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.contact-description {
+    color: #777777;
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+}
