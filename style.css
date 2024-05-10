@@ -22,6 +22,10 @@ body {
 
 }
 
+.logo {
+    cursor: pointer;
+}
+
 .log-in-container {
     display: flex;
     align-items: center;
@@ -288,3 +292,39 @@ body {
     margin: 0;
     font-size: 18px;
 }
+
+.footer-section {
+    height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-itens-container {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: #2D2D2D;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.footer-icon-container {
+    display: flex;
+    gap: 20px;
+
+}
+
+.footer-icon-container img {
+    cursor: pointer;
+}
+
