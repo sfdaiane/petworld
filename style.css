@@ -58,7 +58,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    min-height: 600px;
     background-color: #F7F5FD;
 }
 
@@ -346,3 +346,37 @@ body {
     cursor: pointer;
 }
 
+/* RESPONSIVIDADE */
+
+@media (max-width: 600px) {
+    .log-in-button {
+        height: 40px;
+        width: 100px;
+        font-size: 14px;
+    }
+    .sign-up-item {
+        font-size: 14px;
+    }
+    .log-in-container {
+        gap: 10px;   
+}
+    .logo {
+        display: none;
+    }
+
+    .container-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .title {
+        font-size: 50px;
+    }
+
+    .banner-content-title {
+        align-items: center;
+        gap: 20px;
+    }
+
+}
