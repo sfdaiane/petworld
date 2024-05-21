@@ -3,6 +3,10 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.page-size-padding {
+    padding: 0px 20px;
+}
+
 .content-size {
     width: 100%;
     max-width: 1400px;
@@ -111,7 +115,7 @@ body {
 }
 
 .card-container {
-    height: 500px;
+    min-height: 500px;
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -130,6 +134,7 @@ body {
     flex-direction: column;
     width: 230px;
     gap: 20px;
+
 }
 
 .card-title {
@@ -371,12 +376,29 @@ body {
     }
     
     .title {
+        margin-top: 25px;
         font-size: 50px;
     }
 
     .banner-content-title {
         align-items: center;
-        gap: 20px;
+        gap: 25px;
+    }
+    .banner-button {
+        margin-top: 15px;
+        margin-bottom: 30px;
     }
 
+    .dog-img {
+        max-width: 520px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .card-content-container {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
 }
