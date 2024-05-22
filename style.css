@@ -415,4 +415,14 @@ body {
         margin-bottom: 40px;
         
     }
+    .review-container {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    .img-review {
+        width: 250px;
+    }
 }
